@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="mainTarea">
+        <section id="sectionTarea">
+            <input type="text" id="nuevaTarea" placeholder="Ingrese una nueva tarea">
+            <button id="miInput" onclick="agregarTarea()">Agregar Tarea</button>
+        </section>
+        <section>
+            <table id="tablaTareas" border="1"> <!-- Utiliza el atributo border para agregar bordes a la tabla -->
+                <thead> <!-- Encabezado de la tabla -->
+                  <tr>
+                    <th>Lista de tareas</th>
+                    <!--<th>Incompleta</th>
+                    <th>Completa</th>-->
+                  </tr>
+                </thead>
+                <tbody id="cuerpoTabla"> <!-- Cuerpo de la tabla -->
+                  <!--<tr>
+                    <td>Dato 1</td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                  </tr>-->
+                  <!-- Agrega más filas según sea necesario -->
+                </tbody>
+              </table>
+        </section>
+    </main>
+    <script src="./codigo.js"></script>
+</body>
+</html>
